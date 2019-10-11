@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 42;
+	objectVersion = 45;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -719,6 +719,11 @@
 
 /* Begin PBXFileReference section */
 		20286C33FDCF999611CA2CEA /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
+		49C582A02350FD3500C1D28D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/musicbox.xib; sourceTree = "<group>"; };
+		49C582A12350FD4100C1D28D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		49C582A22350FD4100C1D28D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		49C582A32350FD4100C1D28D /* en */ = {isa = PBXFileReference; lastKnownFileType = folder; name = en; path = "en.lproj/Snes9x Help"; sourceTree = "<group>"; };
+		49C582A42350FD4200C1D28D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Snes9x.xib; sourceTree = "<group>"; };
 		85FEF90620DDB15B00C038E9 /* bml.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = bml.cpp; sourceTree = "<group>"; };
 		85FEF90720DDB15C00C038E9 /* bml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bml.h; sourceTree = "<group>"; };
 		85FEF90A20DDB18D00C038E9 /* sha256.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sha256.cpp; sourceTree = "<group>"; };
@@ -748,7 +753,6 @@
 		CF047E17109D0E0600FD0754 /* Info_i386.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info_i386.plist; sourceTree = "<group>"; };
 		CF0567660CF98E7E00C7877C /* Snes9x.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Snes9x.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF05677E0CF9971000C7877C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = /System/Library/Frameworks/QuartzCore.framework; sourceTree = "<absolute>"; };
-		CF14733D132DA4E1000D0F91 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/Snes9x.xib; sourceTree = "<group>"; };
 		CF2CFFD30F10F2C000B8B35E /* spc7110emu.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = spc7110emu.cpp; sourceTree = "<group>"; };
 		CF2CFFD40F10F2C000B8B35E /* spc7110dec.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = spc7110dec.cpp; sourceTree = "<group>"; };
 		CF2CFFDB0F10F2DD00B8B35E /* spc7110emu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = spc7110emu.h; sourceTree = "<group>"; };
@@ -758,7 +762,6 @@
 		CF3E42491372D48F0077DE32 /* libz_u.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libz_u.a; sourceTree = "<group>"; };
 		CF3E45BD137349960077DE32 /* zconf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = zconf.h; sourceTree = "<group>"; };
 		CF3E45D013734A920077DE32 /* zlib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = zlib.h; sourceTree = "<group>"; };
-		CF46BEA9133E2559005A17A5 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/musicbox.xib; sourceTree = "<group>"; };
 		CF46BEAD133E256D005A17A5 /* musicbox_pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = musicbox_pause.png; sourceTree = "<group>"; };
 		CF4B7C420CF841580080E643 /* icons.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icons.png; sourceTree = "<group>"; };
 		CF5553B10EA24C36005957E4 /* 2xsai.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; path = 2xsai.cpp; sourceTree = "<group>"; };
@@ -811,9 +814,6 @@
 		EA2F381A09B17E9E0078DCA7 /* bsx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bsx.h; sourceTree = "<group>"; };
 		EA31FE2D05F7743E00E13748 /* gfx.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; path = gfx.cpp; sourceTree = "<group>"; };
 		EA362C3E086119D100FBE476 /* HID_Utilities_External.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = HID_Utilities_External.h; sourceTree = "<group>"; };
-		EA3BEA990A28384E00A8FAE5 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/Localizable.strings; sourceTree = "<group>"; };
-		EA3BEA9F0A28384E00A8FAE5 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		EA3BEAA90A28386500A8FAE5 /* English */ = {isa = PBXFileReference; lastKnownFileType = folder; name = English; path = "English.lproj/Snes9x Help"; sourceTree = "<group>"; };
 		EA3D2F360A26083B00BDACCC /* SRAM.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = SRAM.icns; sourceTree = "<group>"; };
 		EA3D2F370A26083B00BDACCC /* SAVE.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = SAVE.icns; sourceTree = "<group>"; };
 		EA3D2F380A26083B00BDACCC /* musicbox_ledon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = musicbox_ledon.icns; sourceTree = "<group>"; };
@@ -1824,16 +1824,18 @@
 		20286C28FDCF999611CA2CEA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastUpgradeCheck = 1110;
 			};
 			buildConfigurationList = EA6A1100085808D200A1CF18 /* Build configuration list for PBXProject "snes9x" */;
 			compatibilityVersion = "Xcode 2.4";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 1;
 			knownRegions = (
-				English,
-				Japanese,
-				French,
-				German,
+				Base,
+				de,
+				ja,
+				en,
+				fr,
 			);
 			mainGroup = 20286C29FDCF999611CA2CEA /* Snes9x CVS */;
 			projectDirPath = "";
@@ -2257,7 +2259,7 @@
 		CF14733C132DA4E1000D0F91 /* Snes9x.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				CF14733D132DA4E1000D0F91 /* English */,
+				49C582A42350FD4200C1D28D /* en */,
 			);
 			name = Snes9x.xib;
 			sourceTree = "<group>";
@@ -2265,7 +2267,7 @@
 		CF46BEA8133E2559005A17A5 /* musicbox.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				CF46BEA9133E2559005A17A5 /* English */,
+				49C582A02350FD3500C1D28D /* Base */,
 			);
 			name = musicbox.xib;
 			sourceTree = "<group>";
@@ -2273,7 +2275,7 @@
 		EA3BEA980A28384E00A8FAE5 /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				EA3BEA990A28384E00A8FAE5 /* English */,
+				49C582A22350FD4100C1D28D /* en */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
@@ -2281,7 +2283,7 @@
 		EA3BEA9E0A28384E00A8FAE5 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				EA3BEA9F0A28384E00A8FAE5 /* English */,
+				49C582A12350FD4100C1D28D /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -2289,7 +2291,7 @@
 		EA3BEAA80A28386500A8FAE5 /* Snes9x Help */ = {
 			isa = PBXVariantGroup;
 			children = (
-				EA3BEAA90A28386500A8FAE5 /* English */,
+				49C582A32350FD4100C1D28D /* en */,
 			);
 			name = "Snes9x Help";
 			sourceTree = "<group>";
@@ -2300,6 +2302,34 @@
 		CF047D02109C98F900FD0754 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
 				USER_HEADER_SEARCH_PATHS = ../apu/bapu;
 			};
 			name = Debug;
@@ -2307,7 +2337,8 @@
 		CF047D03109C98F900FD0754 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "-";
 				COPY_PHASE_STRIP = NO;
 				DEAD_CODE_STRIPPING = YES;
 				GCC_ENABLE_CPP_EXCEPTIONS = NO;
@@ -2340,8 +2371,9 @@
 					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
 				);
 				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)\"";
+				PRODUCT_BUNDLE_IDENTIFIER = com.snes9x.macos.snes9x;
 				PRODUCT_NAME = Snes9x;
-				SDKROOT = macosx10.11;
+				SDKROOT = macosx;
 				WARNING_CFLAGS = "-Wfloat-equal";
 			};
 			name = Debug;
@@ -2349,7 +2381,8 @@
 		CF047D04109C98F900FD0754 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = ppc;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "-";
 				COPY_PHASE_STRIP = NO;
 				DEAD_CODE_STRIPPING = YES;
 				GCC_ENABLE_CPP_EXCEPTIONS = NO;
@@ -2364,7 +2397,7 @@
 					MAC_PANTHER_SUPPORT,
 				);
 				GCC_STRICT_ALIASING = YES;
-				GCC_VERSION = 4.0;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
 				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
@@ -2388,13 +2421,14 @@
 					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
 				);
 				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)\"";
-				MACOSX_DEPLOYMENT_TARGET = 10.3;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				OTHER_LDFLAGS = (
 					"-weak_framework",
 					QuartzCore,
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.snes9x.macos.snes9x;
 				PRODUCT_NAME = "Snes9x (ppc)";
-				SDKROOT = /Developer/SDKs/MacOSX10.5.sdk;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
 				WARNING_CFLAGS = "-Wfloat-equal";
 			};
 			name = Debug;
@@ -2402,7 +2436,8 @@
 		CF047E13109D0E0600FD0754 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = i386;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "-";
 				DEAD_CODE_STRIPPING = YES;
 				GCC_ENABLE_CPP_EXCEPTIONS = NO;
 				GCC_ENABLE_CPP_RTTI = NO;
@@ -2417,7 +2452,7 @@
 				);
 				GCC_STRICT_ALIASING = YES;
 				GCC_UNROLL_LOOPS = YES;
-				GCC_VERSION = 4.0;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
 				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
@@ -2442,11 +2477,12 @@
 					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
 				);
 				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)\"";
-				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				OTHER_CFLAGS = (
 					"-fomit-frame-pointer",
 					"-fast",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.snes9x.macos.snes9x;
 				PRODUCT_NAME = "Snes9x (i386)";
 				WARNING_CFLAGS = "-Wfloat-equal";
 			};
@@ -2455,7 +2491,8 @@
 		CF047E14109D0E0600FD0754 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = i386;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "-";
 				COPY_PHASE_STRIP = NO;
 				DEAD_CODE_STRIPPING = YES;
 				GCC_ENABLE_CPP_EXCEPTIONS = NO;
@@ -2469,7 +2506,7 @@
 					MAC_TIGER_PANTHER_SUPPORT,
 				);
 				GCC_STRICT_ALIASING = YES;
-				GCC_VERSION = 4.0;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
 				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
@@ -2493,7 +2530,8 @@
 					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
 				);
 				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)\"";
-				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_BUNDLE_IDENTIFIER = com.snes9x.macos.snes9x;
 				PRODUCT_NAME = "Snes9x (i386)";
 				WARNING_CFLAGS = "-Wfloat-equal";
 			};
@@ -2502,7 +2540,8 @@
 		CF0567650CF98E7E00C7877C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "-";
 				DEAD_CODE_STRIPPING = YES;
 				GCC_ENABLE_CPP_EXCEPTIONS = NO;
 				GCC_ENABLE_CPP_RTTI = NO;
@@ -2541,8 +2580,9 @@
 					"-fomit-frame-pointer",
 					"-fast",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.snes9x.macos.snes9x;
 				PRODUCT_NAME = Snes9x;
-				SDKROOT = macosx10.11;
+				SDKROOT = macosx;
 				WARNING_CFLAGS = "-Wfloat-equal";
 			};
 			name = Release;
@@ -2550,7 +2590,8 @@
 		CF2F46EF1095EE72007D33FA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = ppc;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "-";
 				DEAD_CODE_STRIPPING = YES;
 				GCC_ENABLE_CPP_EXCEPTIONS = NO;
 				GCC_ENABLE_CPP_RTTI = NO;
@@ -2566,7 +2607,7 @@
 				);
 				GCC_STRICT_ALIASING = YES;
 				GCC_UNROLL_LOOPS = YES;
-				GCC_VERSION = 4.0;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
 				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
@@ -2591,7 +2632,7 @@
 					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
 				);
 				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)\"";
-				MACOSX_DEPLOYMENT_TARGET = 10.3;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				OTHER_CFLAGS = (
 					"-mcpu=G3",
 					"-fomit-frame-pointer",
@@ -2601,8 +2642,9 @@
 					"-weak_framework",
 					QuartzCore,
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.snes9x.macos.snes9x;
 				PRODUCT_NAME = "Snes9x (ppc)";
-				SDKROOT = /Developer/SDKs/MacOSX10.5.sdk;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
 				WARNING_CFLAGS = "-Wfloat-equal";
 			};
 			name = Release;
@@ -2610,6 +2652,32 @@
 		EA6A1102085808D200A1CF18 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
 				USER_HEADER_SEARCH_PATHS = ../apu/bapu;
 			};
 			name = Release;

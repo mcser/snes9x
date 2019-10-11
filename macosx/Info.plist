@@ -170,7 +170,7 @@
 	<key>CFBundleIconFile</key>
 	<string>APPL.icns</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.snes9x.macos.snes9x</string>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
@@ -185,5 +185,7 @@
 	<string>1.60</string>
 	<key>CSResourcesFileMapped</key>
 	<true/>
+	<key>LSApplicationCategoryType</key>
+	<string>public.app-category.games</string>
 </dict>
 </plist>
